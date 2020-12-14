@@ -98,6 +98,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     color: #FFFFFF;
+    border-radius: 25px;
 }
 .section1-right-div {
     display: flex;
@@ -178,4 +179,122 @@
 .section2-div {
     display: flex;
     justify-content: space-between;
+}
+
+/* Section3 */
+.section3 {
+    margin-top: 40px;
+}
+.section3-title {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+.section3-left-div  {
+    background-image: url(../img/sec4img.jpg);
+    width: 760px;
+    height: 430px;
+    padding: 40px;
+}
+.section3-left-div-title {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.section3-left-div-box-title {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    line-height: 34px;
+}
+.section3-left-div-box-p  {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.section3-left-div-box {
+    margin-top: 230px;
+}
+.section3-left-div2 {
+    background-image: url(../img/sec3Image2.jpg);
+    width: 760px;
+    height: 430px;
+    padding: 40px;
+    margin-top: 40px;
+}
+.section3-small-box-title {
+    font-size: 16px;
+    color: #202124;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.section3-main-div {
+    display: flex;
+    justify-content: space-between;
+}
+.section3-right-small-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+/* footer */
+footer {
+    background-color: #A6ADB4;
+    margin-top: 100px;
+}
+.footer-nav-div {
+    display: flex;
+    flex-direction: column;
+}
+.footer-nav-div a {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #CBD0D3;
+    margin-bottom: 8px;
+}
+.footer-nav-div a:last-of-type {
+    margin-bottom: 0;
+}
+.footer-left-div {
+    display: flex;
+    justify-content: space-between;
+}
+.input-email {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.bottom {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    position: absolute;
+}
+.input-div {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.fa-paper-plane {
+    color: #FFFFFF;
+    font-weight: 16px;
+    width: 16px;
+}
+.input-div  input  {
+    width: 260px;
+    height: 40px;
+    border-color: rgba(255, 255, 255, 1);
+    background-color: #A6ADB4;
+    border-radius: 10px;
 }
