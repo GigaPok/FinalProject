@@ -299,6 +299,7 @@ footer {
     border-color: rgba(255, 255, 255, 1);
     background-color: #A6ADB4;
     border-radius: 10px;
+    border-style: double;
 }
 .input-div input::placeholder  {
     font-size: 13px;
