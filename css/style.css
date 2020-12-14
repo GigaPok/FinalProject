@@ -247,6 +247,7 @@
 footer {
     background-color: #A6ADB4;
     margin-top: 100px;
+    height: 200px;
 }
 .footer-nav-div {
     display: flex;
@@ -266,11 +267,12 @@ footer {
 .footer-left-div {
     display: flex;
     justify-content: space-between;
+    padding-top: 55px;
 }
 .input-email {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    position: relative;
 }
 .bottom {
     background-color: Transparent;
@@ -291,10 +293,33 @@ footer {
     font-weight: 16px;
     width: 16px;
 }
-.input-div  input  {
+.input-div input {
     width: 260px;
     height: 40px;
     border-color: rgba(255, 255, 255, 1);
     background-color: #A6ADB4;
     border-radius: 10px;
+}
+.input-div input::placeholder  {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: #CBD0D3;
+    font-weight: 400;
+    opacity: 0.8;
+    padding: 14px 0 0 20px;
+}
+.enter-your-email {
+    font-size: 11px;
+    color: #CBD0D3;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.footer-icons a {
+    margin-right: 32px;
+}
+.footer-icons a:last-of-type  {
+    margin-right: 0;
 }
