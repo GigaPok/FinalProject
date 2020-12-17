@@ -344,6 +344,7 @@ footer {
     background-color: #A6ADB4;
     border-radius: 10px;
     border-style: double;
+    outline: none;
 }
 .input-div input::placeholder  {
     font-size: 13px;
