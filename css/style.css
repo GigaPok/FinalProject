@@ -72,7 +72,7 @@
 .logo-img {
     width: 140px;
 }
-.nav-a li .active {
+.nav-a li .active-page {
     opacity: 1;
 }
 
@@ -112,13 +112,7 @@
     width: 660px;
     margin-top: 40px;
 }
-.section1-box-title {
-    font-size: 24px;
-    color: #FFFFFF;
-    margin-top: 40px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-}
+
 .section1-box-p {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
@@ -128,21 +122,8 @@
     line-height: 26px;
 }
 .read-more {
-    background-color: #FA6980;
-    width: 134px;
-    height: 40px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 11px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color: #FFFFFF;
-    border-radius: 25px;
+
+    
 }
 .section1-right-div {
     display: flex;
@@ -370,3 +351,164 @@ footer {
     margin-right: 0;
 }
 
+/* Page2 - Section1 */
+
+.section1-page2 {
+    background-image: url("../img/gudauri.jpg");
+    background-size: cover;
+    width: auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1-page2 h1 {
+    font-size: 50px;
+    line-height: 58px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.section2-page2-left-div {
+    display: flex;
+    flex-direction: column;
+}
+.section2-page2-left-div h3 {
+    font-size: 32px;
+    line-height: 42px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #202124;
+}
+.section2-page2-left-div p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #A6ADB4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.section2-page2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items:  center;
+}
+
+.video-gudauri {
+    width: 730px;
+    height: auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* Slide Show */
+.slideshow-container {
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  .mySlides img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+  }
+  .text-title  {
+    color: #f2f2f2;
+    font-size: 24px;
+    bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-shadow: 0 0 3px #000000, 0 0 5px  #000000;
+  }
+  .slider-div a {
+    background-color: #0165a8;
+    color: #FFFFFF;
+    border-radius: 25px;
+    padding: 10px 12px;
+    margin-top: 50px;
+    font-family: "Arial GEO Bold", sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+  }
+.slider-div {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 37%;
+    bottom: 50%;
+    flex-direction: column;
+    display: flex;
+}

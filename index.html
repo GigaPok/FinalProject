@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/arial-geo-bold/css/arial-geo-bold.min.css">
     <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -22,7 +22,7 @@
             <div>
                 <ul class="nav-a">
                     <li>
-                        <a class="active btn" href="index.html">HOME</a>
+                        <a class="active-page btn" href="index.html">HOME</a>
                     </li>
                     <li>
                         <a class="btn" href="">DISCOVERY</a>
@@ -38,35 +38,47 @@
         </nav>
     </header>
     <section class="section1">
-        <div class="main-div">
-            <div class="section1-left-div">
-                <div class="section1-left-div-box">
-                    <h1 class="section1-box-h1">WORLD NEWS</h1>
-                    <h3 class="section1-box-title">Amazing places in America to visit.</h3>
-                    <p class="section1-box-p">For some reason — this country, this city, this neighborhood, this
-                        particular street —  is the
-                        place you are living a majority of your life in.</p>
-                    <a class="read-more" href="#">Read More</a>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="img/gudauri-ski-resort-1.jpeg" alt="">
+                <div class="slider-div">
+                    <h3 class="text-title">სამთო - სათხილამურო კურორტი</h3>
+                    <a class="text" href="page2.html">გუდაური</a>
                 </div>
             </div>
-            <div class="section1-right-div">
-                <div>
-                    <h3 class="section1-right-box-title">MORE NEWS</h3>
-                </div>
-                <div class="section1-right-div-box2">
-                    <span class="section1-right-div-box2-title">TRAVEL</span>
-                    <h3 class="section1-right-div-box2-article-title">Article title</h3>
-                    <p class="section1-right-div-box2-p">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad
-                        has appareat…</p>
-                </div>
-                <div class="section1-right-div-box2">
-                    <span class="section1-right-div-box2-title">TRAVEL</span>
-                    <h3 class="section1-right-div-box2-article-title">Article title</h3>
-                    <p class="section1-right-div-box2-p">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad
-                        has appareat…</p>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="img/Hero.jpg">
+                <div class="slider-div">
+                    <h3 class="text-title">სამთო - სათხილამურო კურორტი</h3>
+                    <a class="text" href="page2.html">ბაკურიანი</a>
                 </div>
             </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="img/Main.jpg">
+                <div class="slider-div">
+                    <h3 class="text-title">სამთო - სათხილამურო კურორტი</h3>
+                    <a class="text" href="page2.html">მესტია</a>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
         </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <script src="js/slide.js"> </script>
     </section>
     <section class="container">
         <h3 class="section2-h3-title">TRENDING</h3>
