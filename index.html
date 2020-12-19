@@ -5,8 +5,10 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/node_modules/arial-geo-bold/css/arial-geo-bold.min.css">
     <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,6 +37,23 @@
                     </li>
                 </ul>
             </div>
+            <div class="mobile-container">
+                <div class="topnav">
+                    <div id="myLinks">
+                        <a href="index.html">Home</a>
+                        <a href="page2.html">Photos</a>
+                        <a href="#Contact">CONTACT</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction2()">
+                        <div class="container-bar" onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
         </nav>
     </header>
     <section class="section1">
@@ -86,25 +105,22 @@
             <div class="section2-box">
                 <img src="img/Image1.jpg" alt="Image1">
                 <div class="section2-box-div">
-                    <h2 class="section2-box-title">Dolore magna aliqua</h2>
-                    <p class="section2-box-p">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has
-                        appareat.</p>
+                    <h2 class="section2-box-title">Tbilisi</h2>
+                    <p class="section2-box-p">Historically, Tbilisi has been home to people of multiple cultural, ethnic, and religious backgrounds, though it is overwhelmingly Eastern Orthodox Christian.</p>
                 </div>
             </div>
             <div class="section2-box">
                 <img src="img/1.jpg" alt="Image1">
                 <div class="section2-box-div">
-                    <h2 class="section2-box-title">Dolore magna aliqua</h2>
-                    <p class="section2-box-p">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has
-                        appareat.</p>
+                    <h2 class="section2-box-title">Batumi</h2>
+                    <p class="section2-box-p">Batumi is located on the site of the ancient Greek colony in Colchis called "Bathus" or "Bathys"</p>
                 </div>
             </div>
-            <div class="section2-box">
+            <div class="section2-box section2-box3">
                 <img src="img/2.jpg" alt="Image1">
                 <div class="section2-box-div">
-                    <h2 class="section2-box-title">Dolore magna aliqua</h2>
-                    <p class="section2-box-p">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has
-                        appareat.</p>
+                    <h2 class="section2-box-title">Svaneti</h2>
+                    <p class="section2-box-p">Svaneti or Svanetia (Suania in ancient sources; Georgian: სვანეთი Svaneti) is a historic province of Georgia, in the northwestern part of the country. It is inhabited by the Svans, an ethnic subgroup of Georgians.</p>
                 </div>
             </div>
         </div>
@@ -112,40 +128,32 @@
     <section class="container section3">
         <h3 class="section3-title">HAPPENING NOW</h3>
         <div class="section3-main-div">
-            <div>
+            <div class="section3-div">
                 <div class="section3-left-div">
-                    <h3 class="section3-left-div-title">CITY</h3>
+                    <h3 class="section3-left-div-title">Gudauri</h3>
                     <div class="section3-left-div-box">
-                        <h3 class="section3-left-div-box-title">Large article title</h3>
-                        <p class="section3-left-div-box-p">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
-                            detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis
-                            eloquentiam.
-                        </p>
+                        <h3 class="section3-left-div-box-title">Ski Resorts in Georgia</h3>
                     </div>
                 </div>
                 <div class="section3-left-div2">
-                    <h3 class="section3-left-div-title">CITY</h3>
+                    <h3 class="section3-left-div-title">Mestia</h3>
                     <div class="section3-left-div-box">
-                        <h3 class="section3-left-div-box-title">Large article title</h3>
-                        <p class="section3-left-div-box-p">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
-                            detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis
-                            eloquentiam.
-                        </p>
+                        <h3 class="section3-left-div-box-title">Hatsvali and Tetnuldi</h3>
                     </div>
                 </div>
             </div>
             <div class="section3-right-small-box">
-                <div>
-                    <img src="img/img1.jpg" alt="img1">
-                    <h2 class="section3-small-box-title">Small title</h2>
+                <div class="small-box-divs1">
+                    <img class="small-box-divs1-img" src="img/img1.jpg" alt="img1">
+                    <h2 class="section3-small-box-title">Ski resort</h2>
                 </div>
-                <div>
-                    <img src="img/img2.jpg" alt="img1">
-                    <h2 class="section3-small-box-title">Small title</h2>
+                <div class="small-box-divs2">
+                    <img class="small-box-divs2-img" src="img/img2.jpg" alt="img1">
+                    <h2 class="section3-small-box-title">Ski instructor</h2>
                 </div>
-                <div>
-                    <img src="img/img3.jpg" alt="img1">
-                    <h2 class="section3-small-box-title">Small title</h2>
+                <div class="small-box-divs3">
+                    <img class="small-box-divs3-img" src="img/img3.jpg" alt="img1">
+                    <h2 class="section3-small-box-title">Snowstorms</h2>
                 </div>
             </div>
         </div>
@@ -195,6 +203,8 @@
             </div>
         </div>
     </footer>
+    <script src="js/burger-bar.js"></script>
+    <script src="js/myFunction2.js"></script>
 </body>
 
 </html>
