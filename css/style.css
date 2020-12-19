@@ -168,7 +168,7 @@
 
 .section2-h3-title {
     font-size: 24px;
-    color: #202124;
+    color: lemonchiffon;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     margin-top: 40px;
@@ -185,7 +185,7 @@
 }
 .section2-box-title {
     font-size: 16px;
-    color: #202124;
+    color: #5064a2;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
@@ -214,6 +214,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     margin-bottom: 36px;
+    color: lemonchiffon;
 }
 .section3-left-div  {
     background-image: url(../img/sec4img.jpg);
@@ -255,7 +256,7 @@
 }
 .section3-small-box-title {
     font-size: 16px;
-    color: #202124;
+    color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     margin-top: 20px;
@@ -385,18 +386,28 @@ footer {
     width: 100%;
     text-align: center;
 }
-.section2-page2-left-div {
+.float-title {
+    font-size: 25px;
+    line-height: 58px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+/* .section2-page2-left-div {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; */
 }
 .section2-page2-left-div h3 {
     font-size: 32px;
     line-height: 42px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    color: #202124;
+    color: #FFFFFF;
 }
-.section2-page2-left-div p {
+.text-box p {
     font-size: 14px;
     line-height: 26px;
     color: #A6ADB4;
@@ -414,7 +425,25 @@ footer {
 .video-gudauri {
     width: 730px;
     height: auto;
+    background-image: url("../img/gudauri.jpg");
 }
+.wraper-video-box {
+    width: 100%;
+    height: auto;
+}
+.video-box {
+	float: right;
+    margin-left: 30px;
+    height: 450px;
+    background-image: url("../img/gudauri.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.text-box {
+    text-indent: 20px;
+}
+
 
 header {
     position: sticky;

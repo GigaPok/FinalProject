@@ -3,7 +3,7 @@
         padding: 0 140px;
     }
   }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1180px) {
     .container {
         padding: 0 80px;
     }
@@ -50,8 +50,11 @@
     .section2-box3 {
         display: none;
     }
-    .video-gudauri {
+    .video-gudauri,
+    .video-box {
         width: 100%;
+        margin-bottom: 10px;
+        height: auto;
     }
     .section2-page2 {
         flex-wrap: wrap;
