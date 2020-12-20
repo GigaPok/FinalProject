@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gudauri</title>
@@ -27,10 +28,10 @@
                         <a class="btn" href="index.html">HOME</a>
                     </li>
                     <li>
-                        <a class="active-page btn" href="page2.html">DISCOVERY</a>
+                        <a class="btn" href="page2.html">DISCOVERY</a>
                     </li>
                     <li>
-                        <a class="btn" href="contact.html">CONTACT</a>
+                        <a class="active-page btn" href="contact.html">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -39,7 +40,7 @@
                     <div id="myLinks">
                         <a href="index.html">Home</a>
                         <a href="page2.html">DISCOVERY</a>
-                        <a href="contact.html">CONTACT</a>
+                        <a href="#Contact">CONTACT</a>
                     </div>
                     <a href="javascript:void(0);" class="icon" onclick="myFunction2()">
                         <div class="container-bar" onclick="myFunction(this)">
@@ -52,28 +53,49 @@
             </div>
         </nav>
     </header>
-    <section class="section1-page2">
-        <h1>სათხილამურო კურორტი გუდაური</h1>
+    <section class="container map">
+        <div class="map1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11767.677807289696!2d44.48719643094764!3d42.493265037653806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404528fdf2ee8197%3A0xf2c31d07053611a4!2z4YOS4YOj4YOT4YOQ4YOj4YOg4YOY!5e0!3m2!1ska!2sge!4v1608478548733!5m2!1ska!2sge" ></iframe>
+        </div>
     </section>
     <section class="container">
-        <h3 class="float-title">სათხილამურო კურორტი გუდაური</h3>
-        <div class="wraper-video-box">
-            <video class="video-box" poster="img/gudauri.jpg" controls>
-                <source src="video/gudauri.mp4" type="video/mp4">
-            </video>
-            <div class="text-box">
-                <p>ზღვის დონიდან 2200 მეტრზე მდებარეობს. გუდაური თბილისიდან დაახლოებით 120 კილომეტრშია. ზამთრის სეზონი
-                    გუდაურში დეკემბრიდან მარტამდე გრძელდება.
-
-                    გუდაური თბილისიდან 2 საათის სავალ გზაზე მდებარეობს. გუდაურში ჩასვლა შესაძლებელია მანქანით ან მიკრო
-                    ავტობუსით. მიკრო ავტობუსები დიდუბის ავტოსადგურიდან დადიან. გუდაურის გზა თოვლისგან ყოველთვის
-                    გაწმენდილია და ნებისმიერი ავტომანქანით ჩასვლა მარტივად არის შესაძლებელი. თუმცა დიდთოვლობის დროს
-                    გზაზე წესდება შეზღუდვები და გადაადგილება მხოლოდ მოცურების საწინააღმდეგო ჯაჭვებით არის ნებადართული.
-                </p>
-                <p>გუდაურში არსებული ბუნებრივი პირობები, სამთო-სათხილამურო კურორტის შექმნის მთავარი წინაპირობა
-                    აღმოჩნდა. პირველი საბაგირო გზა 1988 წელს აშენდა. დღეისათვის გუდაურში 14 საბაგირო გზაა და მათგან
-                    უმეტესი ცნობილი ავსტრიული კომპანიის „ დოპელმაიერის“ აშენებულია. ქვედა საბაგირო ზღვის დონიდან 1993
-                    მეტრზე, ხოლო ზედა 3276 მეტრზე მდებარეობს </p>
+        <div class="contact-first-div">
+            <form class="contact-form" action="contact.html">
+                <div class="textarea-div">
+                    <textarea class="textarea" type="textarea" placeholder="Description"></textarea>
+                </div>
+                <div class="input-div2">
+                    <input class="contact-input" type="text" name="Subject" placeholder="Subject">
+                    <input class="contact-input" type="text" name="Name / Surname" placeholder="Name / Surname">
+                    <input class="contact-input" type="email" name="Email" placeholder="Email">
+                    <button class="submit submit2">
+                        <span class="click">Send</span>
+                        <i class="far fa-paper-plane  send-button"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="contact-bottom-div">
+            <div class="contact-box">
+                <div class="mail-div">
+                    <i class="far fa-envelope mail-icon2"></i>
+                </div>
+                <span class="contact-mail-title">Email</span>
+                <span class="contact-mail">Gudauri@gmail.com</span>
+            </div>
+            <div class="contact-box">
+                <div class="mail-div">
+                    <i class="fas fa-phone-alt mail-icon2"></i>
+                </div>
+                <span class="contact-mail-title">Phone</span>
+                <span class="contact-mail">+995 55 55 55</span>
+            </div>
+            <div class="contact-box">
+                <div class="mail-div">
+                    <i class="fas fa-map-marker-alt mail-icon2"></i>
+                </div>
+                <span class="contact-mail-title">Location</span>
+                <span class="contact-mail">Gudauri Ski Resort</span>
             </div>
         </div>
     </section>

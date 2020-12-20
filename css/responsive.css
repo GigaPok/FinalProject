@@ -80,6 +80,25 @@
     .navigation {
         padding: 0;
     }
+    .contact-form {
+        flex-direction: column;
+        align-items: center;
+    }
+    .textarea-div {
+        margin-bottom: 10px;
+    }
+    .input-div2 {
+        width: 70%;
+    }
+    .contact-bottom-div {
+        flex-wrap: wrap;
+    }
+    .contact-box {
+        width: 100%;
+    }
+    .footer-icons {
+        margin-top: 5px;
+    }
   }
 
   @media screen and (max-width: 450px) {
