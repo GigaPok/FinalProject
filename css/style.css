@@ -366,6 +366,33 @@ footer {
 .footer-icons a:last-of-type  {
     margin-right: 0;
 }
+.fa-heart {
+    color: #fb866a;
+}
+.small {
+    font-size: 80%;
+}
+.copyright {
+    color: #cbd0d3;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    right: 0;
+    bottom: 0;
+}
+.copyright  a   {
+    color: #3764a2;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.footer-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 /* Page2 - Section1 */
 
