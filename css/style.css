@@ -269,8 +269,6 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-}
-.section3-right-small-box {
     width: 35%;
 }
 .section3-div {
@@ -282,6 +280,7 @@
     width: 360px;
     height: 210px;
     border-radius: 15px;
+    max-width: 450px;
 }
 /* footer */
 footer {
